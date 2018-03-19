@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		985314C8205B3E53003D8DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985314C7205B3E53003D8DA0 /* AppDelegate.swift */; };
-		985314CA205B3E53003D8DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985314C9205B3E53003D8DA0 /* ViewController.swift */; };
 		985314CD205B3E53003D8DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985314CB205B3E53003D8DA0 /* Main.storyboard */; };
 		985314CF205B3E53003D8DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985314CE205B3E53003D8DA0 /* Assets.xcassets */; };
 		985314D2205B3E53003D8DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985314D0205B3E53003D8DA0 /* LaunchScreen.storyboard */; };
+		985314DA205B416E003D8DA0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985314D9205B416E003D8DA0 /* DetailVC.swift */; };
+		985314DC205B4D4A003D8DA0 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985314DB205B4D4A003D8DA0 /* ListVC.swift */; };
+		985314DE205B4FE8003D8DA0 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985314DD205B4FE8003D8DA0 /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		985314C4205B3E53003D8DA0 /* Weather Gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Gift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		985314C7205B3E53003D8DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		985314C9205B3E53003D8DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		985314CC205B3E53003D8DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		985314CE205B3E53003D8DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985314D1205B3E53003D8DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		985314D3205B3E53003D8DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985314D9205B416E003D8DA0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		985314DB205B4D4A003D8DA0 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		985314DD205B4FE8003D8DA0 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		985314C6205B3E53003D8DA0 /* Weather Gift */ = {
 			isa = PBXGroup;
 			children = (
+				985314DD205B4FE8003D8DA0 /* PageVC.swift */,
+				985314D9205B416E003D8DA0 /* DetailVC.swift */,
 				985314C7205B3E53003D8DA0 /* AppDelegate.swift */,
-				985314C9205B3E53003D8DA0 /* ViewController.swift */,
+				985314DB205B4D4A003D8DA0 /* ListVC.swift */,
 				985314CB205B3E53003D8DA0 /* Main.storyboard */,
 				985314CE205B3E53003D8DA0 /* Assets.xcassets */,
 				985314D0205B3E53003D8DA0 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985314CA205B3E53003D8DA0 /* ViewController.swift in Sources */,
+				985314DC205B4D4A003D8DA0 /* ListVC.swift in Sources */,
+				985314DE205B4FE8003D8DA0 /* PageVC.swift in Sources */,
 				985314C8205B3E53003D8DA0 /* AppDelegate.swift in Sources */,
+				985314DA205B416E003D8DA0 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
